@@ -13,12 +13,12 @@ export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
 
 ## Members
 
-Sathira Kittisukmongkol 5910545868
+* Sathira Kittisukmongkol 5910545868
 
-Wongsathorn
+* Wongsathorn
 
-Wasuthun
+* Wasuthun
 
-Varit
+* Varit
 
-Pittayut
+* Pittayut
