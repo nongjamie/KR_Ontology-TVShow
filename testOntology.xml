@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OE_FILE filename="testOntology.xml" ont_id="1542961102037ont" >
+<FILENAME_ONT>testOntology.xml</FILENAME_ONT>
+<W_CONCEPTS>
+<CANVAS_SIZE w="3377" h="4231" x="143" y="1" />
+<CONCEPT id="1542961102037_n0" >
+<LABEL>Any</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="513" y="69"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1542961102000_n1" >
+<LABEL>Bicycle</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="396" y="258"/>
+<SUB_TREE>open</SUB_TREE>
+<SLOTS>
+<SLOT id="1542961102000_s2" 
+ type="NW"  label="slot"  kind="p/o"  num="1"  role="bodypart"  class_constraint="Body"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="body" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1542961102000_s3" 
+ type="NW"  label="slot2"  kind="p/o"  num="2"  role="wheelpart"  class_constraint="Wheel"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="Wheel" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1542961102000_s4" 
+ type="NW"  label="slot3"  kind="p/o"  num="1"  role="handlepart"  class_constraint="Handle"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="Handle" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1542961102000_s5" 
+ type="NW"  label="slot4"  kind="p/o"  num="1.."  role="saddlepart"  class_constraint="Saddle"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="Saddle" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1542961102000_s6" 
+ type="NW"  label="slot5"  kind="p/o"  num="1"  role="pedalpart"  class_constraint="Pedal"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="Pedal" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1542961102000_s7" 
+ type="NW"  label="slot6"  kind="a/o"  num="1"  role="price"  class_constraint="integer"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="integer" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1542961102000_n8" >
+<LABEL>Wheel</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="746" y="338"/>
+<SLOTS>
+<SLOT id="1542961102000_s9" 
+ type="NW"  label="slot"  kind="a/o"  num="1"  role="size"  class_constraint="integer"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="integer" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1542961102000_n10" >
+<LABEL>Handle</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="775" y="192"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1542961102000_n11" bookmark="true" >
+<LABEL>Body</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="939" y="165"/>
+<SLOTS>
+<SLOT id="1542961102000_s12" 
+ type="NW"  label="slot"  kind="a/o"  num="1.."  role="color"  class_constraint="string"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="string" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1542961102000_n13" >
+<LABEL>Saddle</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="142" y="116"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1542961102000_n14" >
+<LABEL>Pedal</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="886" y="72"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1542961102000_n15" bookmark="true" >
+<LABEL>Utility Bicycle</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="46" y="396"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1542961102000_n16" bookmark="true" >
+<LABEL>Mountain_Bicycle</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="46" y="256"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1542961102000_n17" bookmark="true" >
+<LABEL>FixedGear Bicycle</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="233" y="492"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<ISA id="1542961102000_isa18" parent="Any" child="Bicycle" />
+<ISA id="1542961102000_isa19" parent="Any" child="Wheel" />
+<ISA id="1542961102000_isa20" parent="Any" child="Handle" />
+<ISA id="1542961102000_isa21" parent="Any" child="Body" />
+<ISA id="1542961102000_isa22" parent="Any" child="Saddle" />
+<ISA id="1542961102000_isa23" parent="Any" child="Pedal" />
+<ISA id="1542961102000_isa24" parent="Bicycle" child="Utility Bicycle" />
+<ISA id="1542961102000_isa25" parent="Bicycle" child="Mountain_Bicycle" />
+<ISA id="1542961102000_isa26" parent="Bicycle" child="FixedGear Bicycle" />
+</W_CONCEPTS>
+<R_CONCEPTS>
+<CANVAS_SIZE w="2895" h="3627" />
+</R_CONCEPTS>
+<PRINTER>
+<PAGE_SETTINGS header="true" footer="true" cropmarks="true" scale="100" />
+<PAGE_FORMAT w="595.0" h="842.0" iw="559.0" ih="783.0" ix="18.0" iy="18.0" />
+<PRINTER_SETTINGS orientation="1" printername="EPSON TX220 NX220" />
+</PRINTER>
+</OE_FILE>
