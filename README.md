@@ -1,10 +1,16 @@
 # KR_Ontology-TVShow
 
+# Tools
+
+* Java
+
+* Hozo Ontology Editor
+
 # How to use
 
 Use Hozo Ontology Editor program to open.
 
-Run it in terminal.
+Run these commands in terminal.
 
 ```
 java -jar oe56run.jar
