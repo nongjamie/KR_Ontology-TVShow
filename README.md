@@ -21,7 +21,7 @@ export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
 
 1. Sathira Kittisukmongkol 5910545868 [Github](https://github.com/nongjamie)
 
-2. Wongsathorn Panichkurkul 591054581 [Github](https://github.com/kakmond)
+2. Wongsathorn Panichkurkul 5910545817 [Github](https://github.com/kakmond)
 
 3. Wasuthun wanaphongthipakorn 5910545841 [Github](https://github.com/wasuthun)
 
