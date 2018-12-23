@@ -2,12 +2,12 @@
 <OE_FILE filename="TVShow.xml" ont_id="1543508163886ont" >
 <FILENAME_ONT>TVShow.xml</FILENAME_ONT>
 <W_CONCEPTS>
-<CANVAS_SIZE w="6724" h="6716" x="0" y="0" />
+<CANVAS_SIZE w="8430" h="8303" x="479" y="397" />
 <CONCEPT id="1543508163886_n0" >
 <LABEL>Any</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="1360" y="20"/>
+<POS x="1586" y="23"/>
 <SUB_TREE>open</SUB_TREE>
 <RELATIONS>
 </RELATIONS>
@@ -17,7 +17,7 @@
 <LABEL>Broadcasting</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="980" y="200"/>
+<POS x="1143" y="233"/>
 <SUB_TREE>open</SUB_TREE>
 <RELATIONS>
 </RELATIONS>
@@ -27,7 +27,7 @@
 <LABEL>TelevisionBroadcasting</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="860" y="320"/>
+<POS x="1121" y="364"/>
 <SUB_TREE>open</SUB_TREE>
 <RELATIONS>
 </RELATIONS>
@@ -37,7 +37,7 @@
 <LABEL>TVShow</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="1012" y="408"/>
+<POS x="1174" y="490"/>
 <SUB_TREE>open</SUB_TREE>
 <SLOTS>
 <SLOT id="1543509021000_s5" 
@@ -70,12 +70,6 @@
 </SUB_LABELS>
 <SUB_L label="" def="" role_name="" class_const="Co-ordinator" rh_name ="" value ="" />
 </SLOT>
-<SLOT id="1543509021000_s12" 
- type="NW"  label="slot8"  kind="p/o"  num="1.."  role="viewOfMedia"  class_constraint="CameraOperators"  rh_name=""  value="" >
-<SUB_LABELS>
-</SUB_LABELS>
-<SUB_L label="" def="" role_name="" class_const="CameraOperators" rh_name ="" value ="" />
-</SLOT>
 <SLOT id="1543509021000_s14" 
  type="NW"  label="slot10"  kind="p/o"  num="1.."  role="videoControl"  class_constraint="VideoEngineer"  rh_name=""  value="" >
 <SUB_LABELS>
@@ -106,12 +100,6 @@
 </SUB_LABELS>
 <SUB_L label="" def="" role_name="" class_const="string" rh_name ="" value ="" />
 </SLOT>
-<SLOT id="1543550470093_s25" 
- type="NW"  label="slot21"  kind="a/o"  num="1"  role="rating"  class_constraint="float"  rh_name=""  value="" >
-<SUB_LABELS>
-</SUB_LABELS>
-<SUB_L label="" def="" role_name="" class_const="float" rh_name ="" value ="" />
-</SLOT>
 <SLOT id="1544170392000_s24" 
  type="NW"  label="slot18"  kind="p/o"  num="1"  role="locate"  class_constraint="Channel"  rh_name=""  value="" >
 <SUB_LABELS>
@@ -130,6 +118,24 @@
 </SUB_LABELS>
 <SUB_L label="" def="" role_name="" class_const="OnAirTime" rh_name ="" value ="" />
 </SLOT>
+<SLOT id="1545553286916_s17" 
+ type="NW"  label="slot9"  kind="p/o"  num="1.."  role="controlTechnique"  class_constraint="TechnicalDirector"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot9" def="" role_name="role" class_const="TechnicalDirector" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1545553286916_s18" 
+ type="NW"  label="slot13"  kind="a/o"  num="1"  role="type"  class_constraint="string"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="string" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1545553286916_s19" 
+ type="NW"  label="slot8"  kind="a/o"  num="1"  role="description"  class_constraint="string"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="string" rh_name ="" value ="" />
+</SLOT>
 </SLOTS>
 <RELATIONS>
 </RELATIONS>
@@ -139,7 +145,7 @@
 <LABEL>ComedyShow</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="140" y="840"/>
+<POS x="163" y="979"/>
 <SLOTS>
 <SLOT id="1544166025000_s27" 
  type="NW"  label="slot2"  kind="p/o"  num="1.."  role="act"  class_constraint="Actor"  rh_name=""  value="" >
@@ -153,6 +159,12 @@
 </SUB_LABELS>
 <SUB_L label="" def="" role_name="" class_const="Actress" rh_name ="" value ="" />
 </SLOT>
+<SLOT id="1545553286916_s23" 
+ type="NW"  label="slot"  kind="p/o"  num="1.."  role="process"  class_constraint="MC"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="MC" rh_name ="" value ="" />
+</SLOT>
 </SLOTS>
 <RELATIONS>
 </RELATIONS>
@@ -162,7 +174,7 @@
 <LABEL>GameShow</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="120" y="640"/>
+<POS x="139" y="746"/>
 <SLOTS>
 <SLOT id="1544166025000_s31" 
  type="NW"  label="slot2"  kind="p/o"  num="1.."  role="process"  class_constraint="MC"  rh_name=""  value="" >
@@ -185,7 +197,7 @@
 <LABEL>News</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="320" y="520"/>
+<POS x="373" y="606"/>
 <SLOTS>
 <SLOT id="1544166025000_s34" 
  type="NW"  label="slot"  kind="p/o"  num="1.."  role="annouce"  class_constraint="Newcaster"  rh_name=""  value="" >
@@ -198,45 +210,23 @@
 </RELATIONS>
 <SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
 </CONCEPT>
-<CONCEPT id="1543508163000_n9" >
-<LABEL>Sitcom</LABEL>
-<SUB_LABELS>
-</SUB_LABELS>
-<POS x="1320" y="1160"/>
-<RELATIONS>
-</RELATIONS>
-<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
-</CONCEPT>
-<CONCEPT id="1543508163000_n10" >
-<LABEL>Drama</LABEL>
-<SUB_LABELS>
-</SUB_LABELS>
-<POS x="1280" y="1120"/>
-<RELATIONS>
-</RELATIONS>
-<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
-</CONCEPT>
-<CONCEPT id="1543508163000_n11" >
-<LABEL>Cartoon</LABEL>
-<SUB_LABELS>
-</SUB_LABELS>
-<POS x="2080" y="1060"/>
-<SUB_TREE>open</SUB_TREE>
-<RELATIONS>
-</RELATIONS>
-<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
-</CONCEPT>
 <CONCEPT id="1543508163000_n12" >
 <LABEL>TalkShow</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="380" y="920"/>
+<POS x="443" y="1073"/>
 <SLOTS>
 <SLOT id="1544166025000_s44" 
  type="NW"  label="slot2"  kind="p/o"  num="1.."  role="speaker"  class_constraint="Guestspeaker"  rh_name=""  value="" >
 <SUB_LABELS>
 </SUB_LABELS>
 <SUB_L label="" def="" role_name="" class_const="Guestspeaker" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1545553286916_s31" 
+ type="NW"  label="slot"  kind="p/o"  num="1.."  role="process"  class_constraint="MC"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="MC" rh_name ="" value ="" />
 </SLOT>
 </SLOTS>
 <RELATIONS>
@@ -247,7 +237,7 @@
 <LABEL>Producer</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="2320" y="240"/>
+<POS x="2706" y="279"/>
 <RELATIONS>
 </RELATIONS>
 <SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
@@ -256,7 +246,7 @@
 <LABEL>Creator</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="2080" y="240"/>
+<POS x="2426" y="279"/>
 <PART_TREE>close</PART_TREE>
 <RELATIONS>
 </RELATIONS>
@@ -266,7 +256,7 @@
 <LABEL>Co-ordinator</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="2460" y="200"/>
+<POS x="2869" y="233"/>
 <RELATIONS>
 </RELATIONS>
 <SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
@@ -275,7 +265,7 @@
 <LABEL>Cameraman</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="2360" y="60"/>
+<POS x="2753" y="69"/>
 <RELATIONS>
 </RELATIONS>
 <SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
@@ -284,7 +274,8 @@
 <LABEL>Technical</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="2000" y="280"/>
+<POS x="2318" y="327"/>
+<PART_TREE>close</PART_TREE>
 <SUB_TREE>open</SUB_TREE>
 <RELATIONS>
 </RELATIONS>
@@ -294,7 +285,7 @@
 <LABEL>ExecutiveProducer</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="2440" y="360"/>
+<POS x="2846" y="419"/>
 <RELATIONS>
 </RELATIONS>
 <SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
@@ -303,7 +294,7 @@
 <LABEL>Co-producer</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="2380" y="420"/>
+<POS x="2776" y="489"/>
 <RELATIONS>
 </RELATIONS>
 <SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
@@ -312,7 +303,7 @@
 <LABEL>MainProducer</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="2280" y="380"/>
+<POS x="2659" y="443"/>
 <RELATIONS>
 </RELATIONS>
 <SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
@@ -321,7 +312,7 @@
 <LABEL>Script-writer</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="2180" y="240"/>
+<POS x="2543" y="279"/>
 <RELATIONS>
 </RELATIONS>
 <SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
@@ -330,16 +321,7 @@
 <LABEL>TechnicalDirector</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="2000" y="560"/>
-<RELATIONS>
-</RELATIONS>
-<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
-</CONCEPT>
-<CONCEPT id="1543509021000_n41" >
-<LABEL>CameraOperators</LABEL>
-<SUB_LABELS>
-</SUB_LABELS>
-<POS x="2120" y="600"/>
+<POS x="2333" y="653"/>
 <RELATIONS>
 </RELATIONS>
 <SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
@@ -348,7 +330,7 @@
 <LABEL>LightingTechnician</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="2180" y="560"/>
+<POS x="2543" y="653"/>
 <RELATIONS>
 </RELATIONS>
 <SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
@@ -357,7 +339,7 @@
 <LABEL>VideoEngineer</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="2280" y="480"/>
+<POS x="2659" y="559"/>
 <RELATIONS>
 </RELATIONS>
 <SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
@@ -366,7 +348,7 @@
 <LABEL>AudioEngineer</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="1920" y="520"/>
+<POS x="2239" y="606"/>
 <RELATIONS>
 </RELATIONS>
 <SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
@@ -375,7 +357,7 @@
 <LABEL>VideotapeEditor</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="2240" y="520"/>
+<POS x="2613" y="606"/>
 <RELATIONS>
 </RELATIONS>
 <SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
@@ -384,8 +366,7 @@
 <LABEL>Time</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="1620" y="260"/>
-<SUB_TREE>open</SUB_TREE>
+<POS x="1889" y="303"/>
 <RELATIONS>
 </RELATIONS>
 <SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
@@ -394,7 +375,7 @@
 <LABEL>Channel</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="1660" y="120"/>
+<POS x="1936" y="139"/>
 <SLOTS>
 <SLOT id="1543561342000_s57" 
  type="NW"  label="slot"  kind="a/o"  num="1"  role="name"  class_constraint="string"  rh_name=""  value="" >
@@ -413,66 +394,21 @@
 </RELATIONS>
 <SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
 </CONCEPT>
-<CONCEPT id="1543561342000_n63" >
-<LABEL>Fantasy</LABEL>
-<SUB_LABELS>
-</SUB_LABELS>
-<POS x="2576" y="1232"/>
-<RELATIONS>
-</RELATIONS>
-<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
-</CONCEPT>
-<CONCEPT id="1543561342000_n64" >
-<LABEL>Action</LABEL>
-<SUB_LABELS>
-</SUB_LABELS>
-<POS x="2564" y="1156"/>
-<RELATIONS>
-</RELATIONS>
-<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
-</CONCEPT>
-<CONCEPT id="1543561342000_n65" >
-<LABEL>Horror</LABEL>
-<SUB_LABELS>
-</SUB_LABELS>
-<POS x="2540" y="1076"/>
-<RELATIONS>
-</RELATIONS>
-<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
-</CONCEPT>
-<CONCEPT id="1543561342000_n66" >
-<LABEL>Comedy</LABEL>
-<SUB_LABELS>
-</SUB_LABELS>
-<POS x="2540" y="1304"/>
-<RELATIONS>
-</RELATIONS>
-<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
-</CONCEPT>
-<CONCEPT id="1543561342000_n67" >
-<LABEL>Romance</LABEL>
-<SUB_LABELS>
-</SUB_LABELS>
-<POS x="2428" y="1352"/>
-<RELATIONS>
-</RELATIONS>
-<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
-</CONCEPT>
 <CONCEPT id="1543561342000_n68" >
 <LABEL>Person</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="1960" y="80"/>
+<POS x="2231" y="101"/>
 <SUB_TREE>open</SUB_TREE>
 <SLOTS>
 <SLOT id="1544166025000_s79" 
  type="NW"  label="slot"  kind="a/o"  num="1"  role="Name"  class_constraint="string"  rh_name=""  value="" >
 <SUB_LABELS>
 </SUB_LABELS>
-<SUB_L label="" def="" role_name="" class_const="string" rh_name ="" value ="" />
+<SUB_L label="slot" def="" role_name="Name" class_const="string" rh_name ="" value ="" />
 </SLOT>
 <SLOT id="1544170392000_s76" 
- type="NW"  label="slot2"  kind="a/o"  num="1"  role="ages"  class_constraint="integer"  rh_name=""  value="" >
+ type="NW"  label="slot2"  kind="a/o"  num="1"  role="Age"  class_constraint="integer"  rh_name=""  value="" >
 <SUB_LABELS>
 </SUB_LABELS>
 <SUB_L label="" def="" role_name="" class_const="integer" rh_name ="" value ="" />
@@ -492,7 +428,7 @@
 <LABEL>Actor</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="2240" y="20"/>
+<POS x="2613" y="23"/>
 <PART_TREE>close</PART_TREE>
 <RELATIONS>
 </RELATIONS>
@@ -502,7 +438,7 @@
 <LABEL>Actress</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="2160" y="0"/>
+<POS x="2519" y="0"/>
 <PART_TREE>close</PART_TREE>
 <RELATIONS>
 </RELATIONS>
@@ -512,7 +448,7 @@
 <LABEL>Newcaster</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="2600" y="120"/>
+<POS x="3033" y="139"/>
 <RELATIONS>
 </RELATIONS>
 <SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
@@ -521,7 +457,7 @@
 <LABEL>Audience</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="2600" y="200"/>
+<POS x="3033" y="233"/>
 <RELATIONS>
 </RELATIONS>
 <SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
@@ -530,7 +466,7 @@
 <LABEL>MC</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="2420" y="220"/>
+<POS x="2823" y="256"/>
 <RELATIONS>
 </RELATIONS>
 <SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
@@ -539,7 +475,7 @@
 <LABEL>Competitor</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="2480" y="80"/>
+<POS x="2893" y="93"/>
 <RELATIONS>
 </RELATIONS>
 <SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
@@ -548,7 +484,7 @@
 <LABEL>Guestspeaker</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="2540" y="160"/>
+<POS x="2963" y="186"/>
 <RELATIONS>
 </RELATIONS>
 <SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
@@ -557,7 +493,7 @@
 <LABEL>StageManager</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="1960" y="0"/>
+<POS x="2279" y="16"/>
 <RELATIONS>
 </RELATIONS>
 <SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
@@ -566,14 +502,8 @@
 <LABEL>ShowTime</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="1480" y="320"/>
+<POS x="1726" y="373"/>
 <SLOTS>
-<SLOT id="1545541623000_s69" 
- type="NW"  label="slot"  kind="a/o"  num="1.."  role="Date"  class_constraint="string"  rh_name=""  value="" >
-<SUB_LABELS>
-</SUB_LABELS>
-<SUB_L label="" def="" role_name="" class_const="string" rh_name ="" value ="" />
-</SLOT>
 <SLOT id="1545541623000_s70" 
  type="NW"  label="slot2"  kind="a/o"  num="1"  role="StartDate"  class_constraint="string"  rh_name=""  value="" >
 <SUB_LABELS>
@@ -586,12 +516,6 @@
 </SUB_LABELS>
 <SUB_L label="" def="" role_name="" class_const="string" rh_name ="" value ="" />
 </SLOT>
-<SLOT id="1545541623000_s72" 
- type="NW"  label="slot4"  kind="a/o"  num="0.."  role="NumberOfShowTime"  class_constraint="integer"  rh_name=""  value="" >
-<SUB_LABELS>
-</SUB_LABELS>
-<SUB_L label="" def="" role_name="" class_const="integer" rh_name ="" value ="" />
-</SLOT>
 </SLOTS>
 <RELATIONS>
 </RELATIONS>
@@ -601,7 +525,7 @@
 <LABEL>OnAirTime</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="1700" y="320"/>
+<POS x="1983" y="373"/>
 <SLOTS>
 <SLOT id="1545541623000_s74" 
  type="NW"  label="slot"  kind="a/o"  num="1.."  role="Time"  class_constraint="decimal"  rh_name=""  value="" >
@@ -624,13 +548,13 @@
 <LABEL>Variety</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="620" y="700"/>
-<SUB_TREE>open</SUB_TREE>
+<POS x="723" y="816"/>
 <SLOTS>
 <SLOT id="1545541623000_s77" 
  type="NW"  label="slot"  kind="p/o"  num="0.."  role="viewer"  class_constraint="Audience"  rh_name=""  value="" >
 <SUB_LABELS>
 </SUB_LABELS>
+<PART_TREE>close</PART_TREE>
 <SUB_L label="" def="" role_name="" class_const="Audience" rh_name ="" value ="" />
 </SLOT>
 <SLOT id="1545541623000_s78" 
@@ -651,11 +575,11 @@
 </SUB_LABELS>
 <SUB_L label="" def="" role_name="" class_const="StageManager" rh_name ="" value ="" />
 </SLOT>
-<SLOT id="1545541623000_s81" 
- type="NW"  label="slot5"  kind="p/o"  num="1"  role="controlTechnique"  class_constraint="TechnicalDirector"  rh_name=""  value="" >
+<SLOT id="1545553286916_s73" 
+ type="NW"  label="slot5"  kind="a/o"  num="1"  role="rating"  class_constraint="float"  rh_name=""  value="" >
 <SUB_LABELS>
 </SUB_LABELS>
-<SUB_L label="" def="" role_name="" class_const="TechnicalDirector" rh_name ="" value ="" />
+<SUB_L label="" def="" role_name="" class_const="float" rh_name ="" value ="" />
 </SLOT>
 </SLOTS>
 <RELATIONS>
@@ -663,77 +587,109 @@
 <SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
 </CONCEPT>
 <CONCEPT id="1545541623000_n82" >
-<LABEL>Series</LABEL>
+<LABEL>Movie</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="1680" y="900"/>
+<POS x="1526" y="539"/>
 <SUB_TREE>open</SUB_TREE>
 <SLOTS>
-<SLOT id="1545541623000_s83" 
- type="NW"  label="slot"  kind="a/o"  num="1.."  role="episode"  class_constraint="integer"  rh_name=""  value="" >
-<SUB_LABELS>
-</SUB_LABELS>
-<SUB_L label="" def="" role_name="" class_const="integer" rh_name ="" value ="" />
-</SLOT>
-</SLOTS>
-<RELATIONS>
-</RELATIONS>
-<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
-</CONCEPT>
-<CONCEPT id="1545541623000_n84" >
-<LABEL>RealPeople</LABEL>
-<SUB_LABELS>
-</SUB_LABELS>
-<POS x="1440" y="980"/>
-<SUB_TREE>open</SUB_TREE>
-<SLOTS>
-<SLOT id="1545541623000_s85" 
- type="NW"  label="slot"  kind="p/o"  num="1.."  role="controlCamera"  class_constraint="Cameraman"  rh_name=""  value="" >
+<SLOT id="1545553286916_s75" 
+ type="NW"  label="slot"  kind="p/o"  num="0.."  role="controlCamera"  class_constraint="Cameraman"  rh_name=""  value="" >
 <SUB_LABELS>
 </SUB_LABELS>
 <SUB_L label="" def="" role_name="" class_const="Cameraman" rh_name ="" value ="" />
 </SLOT>
-<SLOT id="1545541623000_s86" 
- type="NW"  label="slot2"  kind="p/o"  num="1.."  role="act"  class_constraint="Actor"  rh_name=""  value="" >
+<SLOT id="1545553286916_s76" 
+ type="NW"  label="slot2"  kind="p/o"  num="0.."  role="act"  class_constraint="Actor"  rh_name=""  value="" >
 <SUB_LABELS>
 </SUB_LABELS>
 <SUB_L label="" def="" role_name="" class_const="Actor" rh_name ="" value ="" />
 </SLOT>
-<SLOT id="1545541623000_s87" 
- type="NW"  label="slot3"  kind="p/o"  num="1.."  role="act"  class_constraint="Actress"  rh_name=""  value="" >
+<SLOT id="1545553286916_s77" 
+ type="NW"  label="slot3"  kind="p/o"  num="0.."  role="act"  class_constraint="Actress"  rh_name=""  value="" >
 <SUB_LABELS>
 </SUB_LABELS>
 <SUB_L label="" def="" role_name="" class_const="Actress" rh_name ="" value ="" />
 </SLOT>
-<SLOT id="1545541623000_s88" 
- type="NW"  label="slot4"  kind="p/o"  num="1.."  role="controlLight"  class_constraint="LightingTechnician"  rh_name=""  value="" >
+<SLOT id="1545553286916_s78" 
+ type="NW"  label="slot4"  kind="p/o"  num="0.."  role="controlAnimation"  class_constraint="AnimationTechnician"  rh_name=""  value="" >
 <SUB_LABELS>
 </SUB_LABELS>
-<SUB_L label="" def="" role_name="" class_const="LightingTechnician" rh_name ="" value ="" />
-</SLOT>
-<SLOT id="1545541623000_s89" 
- type="NW"  label="slot5"  kind="p/o"  num="1.."  role="controlStage"  class_constraint="StageManager"  rh_name=""  value="" >
-<SUB_LABELS>
-</SUB_LABELS>
-<SUB_L label="" def="" role_name="" class_const="StageManager" rh_name ="" value ="" />
-</SLOT>
-<SLOT id="1545541623000_s90" 
- type="NW"  label="slot6"  kind="p/o"  num="1"  role="controlTechnique"  class_constraint="TechnicalDirector"  rh_name=""  value="" >
-<SUB_LABELS>
-</SUB_LABELS>
-<SUB_L label="" def="" role_name="" class_const="TechnicalDirector" rh_name ="" value ="" />
+<SUB_L label="" def="" role_name="" class_const="AnimationTechnician" rh_name ="" value ="" />
 </SLOT>
 </SLOTS>
 <RELATIONS>
 </RELATIONS>
 <SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
 </CONCEPT>
-<CONCEPT id="1545541623000_n91" >
-<LABEL>UnrealPeople</LABEL>
+<CONCEPT id="1545549238028_n84" >
+<LABEL>SeriesSeason</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="1880" y="904"/>
-<SUB_TREE>open</SUB_TREE>
+<POS x="1449" y="266"/>
+<SLOTS>
+<SLOT id="1545553286916_s80" 
+ type="NW"  label="slot"  kind="a/o"  num="1"  role="seasonName"  class_constraint="string"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="string" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1545553286916_s81" 
+ type="NW"  label="slot2"  kind="a/o"  num="1"  role="episode"  class_constraint="integer"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="integer" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1545553286916_s82" 
+ type="NW"  label="slot3"  kind="a/o"  num="1"  role="rating"  class_constraint="float"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="float" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1545550578175_n81" >
+<LABEL>Series</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1920" y="682"/>
+<SLOTS>
+<SLOT id="1545553286916_s84" 
+ type="NW"  label="slot"  kind="p/o"  num="1.."  role="has"  class_constraint="SeriesSeason"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="SeriesSeason" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1545550578175_n83" >
+<LABEL>AnimationTechnician</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2102" y="646"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1545552791721_n84" >
+<LABEL>BigCinema</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1898" y="540"/>
+<SLOTS>
+<SLOT id="1545553286916_s87" 
+ type="NW"  label="slot"  kind="a/o"  num="1"  role="rating"  class_constraint="float"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="float" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
 <RELATIONS>
 </RELATIONS>
 <SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
@@ -750,19 +706,12 @@
 <ISA id="1543509021000_isa66" parent="Producer" child="Co-producer" />
 <ISA id="1543509021000_isa67" parent="Producer" child="MainProducer" />
 <ISA id="1543509021000_isa69" parent="Person" child="Script-writer" />
-<ISA id="1543509021000_isa70" parent="Technical" child="TechnicalDirector" />
-<ISA id="1543509021000_isa71" parent="Technical" child="CameraOperators" />
 <ISA id="1543509021000_isa72" parent="Technical" child="LightingTechnician" />
 <ISA id="1543509021000_isa73" parent="Technical" child="VideoEngineer" />
 <ISA id="1543509021000_isa74" parent="Technical" child="AudioEngineer" />
 <ISA id="1543509021000_isa75" parent="Technical" child="VideotapeEditor" />
 <ISA id="1543561342000_isa99" parent="Any" child="Time" />
 <ISA id="1543561342000_isa100" parent="Any" child="Channel" />
-<ISA id="1543561342000_isa102" parent="Cartoon" child="Fantasy" />
-<ISA id="1543561342000_isa103" parent="Cartoon" child="Action" />
-<ISA id="1543561342000_isa104" parent="Cartoon" child="Horror" />
-<ISA id="1543561342000_isa105" parent="Cartoon" child="Comedy" />
-<ISA id="1543561342000_isa106" parent="Cartoon" child="Romance" />
 <ISA id="1543561342000_isa107" parent="Any" child="Person" />
 <ISA id="1543563594000_isa112" parent="Person" child="Actor" />
 <ISA id="1543563594000_isa113" parent="Person" child="Actress" />
@@ -775,19 +724,19 @@
 <ISA id="1544632454000_isa133" parent="Time" child="ShowTime" />
 <ISA id="1544632454000_isa134" parent="Time" child="OnAirTime" />
 <ISA id="1544632454000_isa135" parent="TVShow" child="Variety" />
-<ISA id="1545541623000_isa129" parent="TVShow" child="Series" />
+<ISA id="1545541623000_isa129" parent="TVShow" child="Movie" />
 <ISA id="1545541623000_isa130" parent="Variety" child="ComedyShow" />
 <ISA id="1545541623000_isa131" parent="Variety" child="News" />
 <ISA id="1545541623000_isa132" parent="Variety" child="GameShow" />
 <ISA id="1545541623000_isa133" parent="Variety" child="TalkShow" />
-<ISA id="1545541623000_isa134" parent="Series" child="RealPeople" />
-<ISA id="1545541623000_isa135" parent="Series" child="UnrealPeople" />
-<ISA id="1545541623000_isa136" parent="UnrealPeople" child="Cartoon" />
-<ISA id="1545541623000_isa137" parent="RealPeople" child="Sitcom" />
-<ISA id="1545541623000_isa138" parent="RealPeople" child="Drama" />
+<ISA id="1543509021000_isa70" parent="Technical" child="TechnicalDirector" />
+<ISA id="1545549238028_isa126" parent="Any" child="SeriesSeason" />
+<ISA id="1545550578175_isa121" parent="Movie" child="Series" />
+<ISA id="1545550578175_isa122" parent="Technical" child="AnimationTechnician" />
+<ISA id="1545552791721_isa124" parent="Movie" child="BigCinema" />
 </W_CONCEPTS>
 <R_CONCEPTS>
-<CANVAS_SIZE w="5660" h="5632" />
+<CANVAS_SIZE w="6056" h="5925" />
 </R_CONCEPTS>
 <PRINTER>
 <PAGE_SETTINGS header="true" footer="true" cropmarks="true" scale="100" />
