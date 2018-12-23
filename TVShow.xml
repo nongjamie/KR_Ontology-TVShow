@@ -2,7 +2,7 @@
 <OE_FILE filename="TVShow.xml" ont_id="1543508163886ont" >
 <FILENAME_ONT>TVShow.xml</FILENAME_ONT>
 <W_CONCEPTS>
-<CANVAS_SIZE w="10620" h="10340" x="482" y="0" />
+<CANVAS_SIZE w="10620" h="10340" x="386" y="0" />
 <CONCEPT id="1543508163886_n0" >
 <LABEL>Any</LABEL>
 <SUB_LABELS>
@@ -130,7 +130,7 @@
 </SUB_LABELS>
 <SUB_L label="" def="" role_name="" class_const="string" rh_name ="" value ="" />
 </SLOT>
-<SLOT id="1545554227788_s19" 
+<SLOT id="1545554406207_s19" 
  type="NW"  label="slot13"  kind="p/o"  num="1.."  role="type"  class_constraint="Genre"  rh_name=""  value="" >
 <SUB_LABELS>
 </SUB_LABELS>
@@ -701,13 +701,13 @@
 <POS x="1123" y="46"/>
 <SUB_TREE>open</SUB_TREE>
 <SLOTS>
-<SLOT id="1545554227788_s89" 
+<SLOT id="1545554406207_s89" 
  type="NW"  label="slot"  kind="a/o"  num="1"  role="nameGenre"  class_constraint="string"  rh_name=""  value="" >
 <SUB_LABELS>
 </SUB_LABELS>
 <SUB_L label="" def="" role_name="" class_const="string" rh_name ="" value ="" />
 </SLOT>
-<SLOT id="1545554227788_s90" 
+<SLOT id="1545554406207_s90" 
  type="NW"  label="slot2"  kind="a/o"  num="1"  role="discriptionGenre"  class_constraint="string"  rh_name=""  value="" >
 <SUB_LABELS>
 </SUB_LABELS>
